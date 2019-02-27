@@ -1,6 +1,6 @@
-workflow "New workflow" {
-  on = "push"
+workflow "Start" {
   resolves = ["Export SVG from Figma"]
+  on = "push"
 }
 
 action "Export SVG from Figma" {
